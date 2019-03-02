@@ -9,7 +9,13 @@ Amplify.configure(config)
 
 const IndexPage = () => (
   <Layout>
-    <h1>Jacks Kicks 🃋✌️</h1>
+    <h1>Jacks Kicks 
+    <span
+    style={{
+      color: '#f15d4e',
+    }}
+    > 🃋 </span>
+    ✌️</h1>
     <p>🗞 Ahoy folks here's a new Gatsby site with multi-user authentication powered by <a href="https://amplify.aws">AWS Amplify</a></p>
     <p>🚧 Mind the coarse styling, this here's an Alpha version.</p>
     <p>Create a new account: <Link to="/app/signup">Sign Up</Link></p>

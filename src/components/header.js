@@ -9,7 +9,7 @@ import { Auth } from 'aws-amplify'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#04476d',
       marginBottom: '1.45rem',
     }}
   >
