@@ -3,8 +3,9 @@ import { Link } from 'gatsby'
 
 const Home = () => <div>
   <h1>Home</h1>
-	<p>You are now logged in! <Link to="/app/profile">View profile</Link></p>
-	<p>Now go build something great and deploy it using the <a href="https://console.amplify.aws">AWS Amplify Console</a></p>
+	<p>You're now logged in! <Link to="/app/profile">View basic profile page</Link></p>
+	<p>We're building features, so stay tuned.</p>
+	<p>Admin users need the ability to delete and edit posts, to elevate other users to admin status, and finally to delete users.</p>
 	</div>
 
 export default Home

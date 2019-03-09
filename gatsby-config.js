@@ -8,12 +8,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Minority Vets',
-        short_name: 'mva',
+        short_name: 'MinorityVets🇺🇸',
         start_url: '/',
         background_color: '#04476d',
         theme_color: '#04476d',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/img/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

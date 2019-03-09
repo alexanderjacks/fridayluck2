@@ -50,7 +50,7 @@ class SignUp extends React.Component {
   render() {
     return (
       <div>
-        <h1>Sign Up</h1>
+        <h1>Join Minority Veterans of America</h1>
         {
           this.state.stage === 0 && (
             <div style={styles.formContainer}>

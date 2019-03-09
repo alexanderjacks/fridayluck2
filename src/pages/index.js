@@ -9,19 +9,11 @@ Amplify.configure(config)
 
 const IndexPage = () => (
   <Layout>
-    <h1>Jacks Kicks 
-	    <span
-		    style={{
-		      color: '#f15d4e',
-		    }}
-		    aria-label='jack of diamonds'
-	    > 🃋 
-	    </span>
+    <h1>We Stand With Trans Troops
 	    <span
 	    	role='img'
-			aria-label='victory hands'
-	    >
-	    	✌️
+			aria-label='pride flag'
+	    > 🏳️‍🌈 
 	    </span>
     </h1>
     <p>
@@ -30,14 +22,19 @@ const IndexPage = () => (
 			aria-label='newspaper'
 	    >
 	    	🗞
-	    </span> Ahoy folks here's a new Gatsby site with multi-user authentication powered by <a href="https://amplify.aws">AWS Amplify</a></p>
+	    </span> Ahoy folks this is an under-construction app~website with multi-user authentication powered by <a href="https://amplify.aws">AWS Amplify</a></p>
     <p><span
 	    	role='img'
 			aria-label='construction barrier'
 	    >
 	    	🚧
 	    </span> Mind the coarse styling, this here's an Alpha version.</p>
-    <p>Create a new account: <Link to="/app/signup">Sign Up</Link></p>
+    <p><span
+	    	role='img'
+			aria-label='asking hands'
+	    >
+	    	🙏
+	    </span> Please help us test this app. Create a new account: <Link to="/app/signup">Sign Up</Link></p>
     <Link to="/app/login">Sign In</Link><br />
     <Link to="/app/home">Home</Link><br />
     <Link to="/app/profile">Your profile</Link>
