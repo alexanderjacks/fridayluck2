@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div>
       <h1>Profile Details</h1>
+      <p>Name: {user.name}</p>
       <p>Email: {user.email}</p>
-      <p>Phone: {user.phone_number}</p>
       <p>Username: {user.username}</p>
       <Link to="/app/home">Home</Link>
     </div>
