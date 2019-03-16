@@ -1,7 +1,7 @@
 {
   "name": "Minority Veterans of America",
-  "description": "Gatsby app hosted / authentication'ed via AWS",
-  "version": "1.0.0",
+  "description": "Gatsby app hosted and authenticated via AWS",
+  "version": "1.1.0",
   "author": "Alexander Jacks ; alexdjacks@gmail.com",
   "dependencies": {
     "aws-amplify": "^1.0.5",
