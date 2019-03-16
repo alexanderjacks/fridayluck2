@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-auth-starter-aws",
-  "description": "Gatsby authentication starter for AWS",
+  "name": "Minority Veterans of America",
+  "description": "Gatsby app hosted / authentication'ed via AWS",
   "version": "1.0.0",
-  "author": "Nader Dabit <dabit3.@gmail.com>",
+  "author": "Alexander Jacks ; alexdjacks@gmail.com",
   "dependencies": {
     "aws-amplify": "^1.0.5",
     "aws-amplify-react": "^1.0.5",
