@@ -104,6 +104,8 @@ class SignUp extends React.Component {
               <div style={styles.button} onClick={this.confirmSignUp}>
                 <span style={styles.buttonText}>Confirm Sign Up</span>
               </div>
+              <h2>Please check the address you provided for an email from no-reply@verificationemail.com
+              </h2>
             </div>
           )
         }
