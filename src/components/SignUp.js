@@ -27,7 +27,10 @@ class SignUp extends React.Component {
   signUp = async() => {
     const { username, password, email, phone_number } = this.state
     try {
-      await Auth.signUp({ username, password, attributes: { email, phone_number }})
+      await Auth.signUp({ username, password, attributes: { 
+          email, 
+          phone_number: phone_number[0] !== '+' ? '+1' + phone_number : phone_number
+       }})
       this.setState({ stage: 1 })
     } catch (err) {
       this.setState({ error: err })
